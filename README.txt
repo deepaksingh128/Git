@@ -43,3 +43,17 @@ area then we do `git restore`.
 
 14. `git commit -m "<your commit message>"` -> if we want to avoid opening a text editor like
 vim/nano to add commit message we can use this command.
+
+15. `git remote` -> list downs all the remote connection names.
+
+16. Remote Connection -> It helps you to link two git repositories for uploading and downloading 
+changes from each other.
+
+17. `git remote add <name of remote> <link of the remote>`-> this command helps us to add a new link to the
+remote repo and give a name to it.
+
+18. `git remote rm <name of remote>` -> this command deletes a remote connection.
+
+19. `git remote rename <oldname> <newname>` -> this command renames the remote connection.
+
+NOTE:- The name of the remote connection is always used to establish communication between the repos. 
